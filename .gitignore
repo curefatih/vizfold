@@ -1,8 +1,6 @@
 # ignore modules
-/node_modules
+node_modules
 
 # ignore everything that inside built
 build
 
-# development tests
-src/test/**
