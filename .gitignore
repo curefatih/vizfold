@@ -2,7 +2,7 @@
 /node_modules
 
 # ignore everything that inside built
-built/**
+build
 
 # development tests
 src/test/**
