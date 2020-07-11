@@ -4,6 +4,10 @@
   "description": "",
   "main": "./built/index.js",
   "types": "./built/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/curefatih/vizfold.git"
+  },
   "scripts": {
     "build": "tsc",
     "prepublish": "npm run build"
