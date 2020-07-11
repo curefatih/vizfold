@@ -2,16 +2,16 @@
   "compilerOptions": {
     "outDir": "./built",
     "allowJs": true,
-    "target": "es5",
-    "rootDir": "./src",
+    "sourceMap": true,
+    "target": "es6",
+    "module": "commonjs",
+    "baseUrl": "./src",
     "declaration": true
   },
   "include": [
-    "./src/**/*"
+    "./src/**/*.ts"
   ],
   "exclude": [
-    "src/test",
-    "built",
     "node_modules"
   ]
 }

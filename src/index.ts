@@ -1,3 +1,5 @@
-import Entity from "./Entity";
+import * as Entity from "./Entity";
+import * as Tree from "./Tree";
+import * as EntityType from "./EntityType";
 
-export { Entity };
+export { Entity, Tree, EntityType };
