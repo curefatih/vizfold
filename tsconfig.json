@@ -1,17 +1,19 @@
 {
   "compilerOptions": {
-    "outDir": "./built",
-    "allowJs": true,
-    "sourceMap": true,
-    "target": "es6",
-    "module": "commonjs",
-    "baseUrl": "./src",
-    "declaration": true
+      "experimentalDecorators": true,
+      "emitDecoratorMetadata": true,
+      "sourceMap": true,
+      "target": "es6",
+      "module": "commonjs",
+      "outDir": "./build",
+      "baseUrl": "./src",
+      "declaration": true
   },
   "include": [
-    "./src"
+      "src/**/*.ts"
   ],
   "exclude": [
-    "node_modules"
+      "node_modules",
+      ".vscode"
   ]
 }

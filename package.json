@@ -2,8 +2,8 @@
   "name": "vizfold",
   "version": "0.0.8",
   "description": "",
-  "main": "built/index.js",
-  "types": "built/index.d.ts",
+  "main": "build/index.js",
+  "types": "build/index.d.ts",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/curefatih/vizfold.git"
